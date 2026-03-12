@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <title>Starmap — For Vivi</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Title Screen -->
+  <div id="title-screen">
+    <div class="title-content">
+      <h1 class="title-main">✦ STARMAP ✦</h1>
+      <p class="title-subtitle">For Vivi</p>
+      <p class="title-prompt blink">[ Click anywhere to begin ]</p>
+    </div>
+  </div>
+
+  <!-- Progress Bar -->
+  <div id="progress-bar">
+    <div class="progress-segment" data-index="0"></div>
+    <div class="progress-segment" data-index="1"></div>
+    <div class="progress-segment" data-index="2"></div>
+    <div class="progress-segment" data-index="3"></div>
+    <div class="progress-segment" data-index="4"></div>
+  </div>
+
+  <!-- Game Canvas -->
+  <canvas id="starmap" role="img" aria-label="Interactive star map — tap stars to form constellations"></canvas>
+
+  <!-- Message Card Overlay -->
+  <div id="message-card" class="hidden">
+    <div class="card-inner">
+      <h2 id="card-title"></h2>
+      <p id="card-message"></p>
+      <p class="card-prompt blink">[ Click to Continue ]</p>
+    </div>
+  </div>
+
+  <!-- Ending Screen -->
+  <div id="ending-screen" class="hidden">
+    <div class="ending-content">
+      <div class="ending-stars-symbol">✦ ✦</div>
+      <h1 class="ending-title">Happy Birthday</h1>
+      <h2 class="ending-name">Vivi</h2>
+      <p class="ending-message"></p>
+    </div>
+  </div>
+
+  <script src="game.js"></script>
+</body>
+</html>
