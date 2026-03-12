@@ -136,7 +136,7 @@
     { fromGroup: 3, fromStar: 4, toGroup: 4, toStar: 2 }, // Upper Cord → Northern Fish
   ];
 
-  const ENDING_MESSAGE = "Happiest birthday Viviii!!! May this year's birthday be the beginning of amazing birthdays that are to come! You are such a strong, kind, courageous lady. And I could never be more proud of you in all that you've doonnee! Thank you for being with me and I pray that you had an amazing birthday!!! \ud83d\udc96\ud83d\udc96\ud83d\udc96\ud83e\udd73\ud83e\udd73\ud83e\udd73\ud83c\udf81\ud83c\udf81\ud83c\udf81";
+  const ENDING_MESSAGE = "Happiest birthday Viviii!!! May this year's birthday be the beginning of amazing birthdays that are to come! You are such a strong, kind, courageous lady. And I could never be more proud of you in all that you've doonnee! Thank you for letting me be a part of your life and I pray that you had an amazing birthday!!! \ud83d\udc96\ud83d\udc96\ud83d\udc96\ud83e\udd73\ud83e\udd73\ud83e\udd73\ud83c\udf81\ud83c\udf81\ud83c\udf81";
 
   // --- Utility ---
   function resizeCanvas() {
